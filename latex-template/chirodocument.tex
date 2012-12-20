@@ -1,12 +1,32 @@
 \documentclass[a4paper,11pt]{article}
+
+% Deze template is gelicenseerd onder een Creative
+% Commons Naamsvermelding-GelijkDelen 3.0 Unported
+% licentie (http://creativecommons.org/licenses/by-sa/3.0/)
+
+% Nodige packages voor compilatie:
+%  Fedora:
+%    texlive-textpos, texlive-multirow, texlive-pdftex-def, texlive-SIunits
+%  Debian:
+%    texlive-latex-extra
+
 \usepackage[dutch]{babel}
 \usepackage[pdftex]{graphicx}
 \usepackage{multirow}
 \usepackage[absolute]{textpos}
 
-% Nodige packages:
-%  texlive-textpos, texlive-multirow, texlive-pdftex-def (fedora)
-%  texlive-latex-extra (debian)
+\usepackage{hyperref}                   % Om hrefs te maken
+\usepackage{url}                        % Om url's te verwerken
+\usepackage{graphicx}                   % Om figuren te kunnen verwerken
+\usepackage{xspace}                     % Magische spaties na een commando
+\usepackage[utf8]{inputenc}             % Om niet ascii karakters rechtstreeks te kunnen typen
+\usepackage{float}                      % Om nieuwe float environments aan te maken. Ook optie H!
+\usepackage{flafter}                    % Opdat floats niet zouden voorsteken
+\usepackage{listings}                   % Voor het weergeven van letterlijke text en codelistings
+\usepackage{eurosym}                    % om het euro symbool te krijgen
+\usepackage{textcomp}                   % Voor onder andere graden celsius
+\usepackage[Gray,squaren,thinqspace,thinspace]{SIunits} % Om elegant eenheden te zetten
+
 
 \setlength{\TPHorizModule}{25mm}
 \setlength{\TPVertModule}{\TPHorizModule}
