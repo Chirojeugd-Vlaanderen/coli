@@ -28,6 +28,8 @@
 \usepackage{eurosym}                    % om het euro symbool te krijgen
 \usepackage{textcomp}                   % Voor onder andere graden celsius
 \usepackage[Gray,squaren,thinqspace,thinspace]{SIunits} % Om elegant eenheden te zetten
+\usepackage{parskip}			% Geen indents tussen paragrafen, wel
+					% witruimte
 
 \hyphenation{ver-ze-ke-rin-gen}
 \hyphenation{tekst-ver-wer-ker}
