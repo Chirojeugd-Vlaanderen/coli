@@ -1,0 +1,76 @@
+\documentclass[a4paper,11pt]{article}
+
+% Deze template van Johan Vervloet en Wim Willems
+% is gelicenseerd onder een Creative
+% Commons Naamsvermelding-GelijkDelen 3.0 Unported
+% licentie (http://creativecommons.org/licenses/by-sa/3.0/)
+
+% Nodige packages voor compilatie:
+%  Fedora:
+%    texlive-textpos, texlive-multirow, texlive-pdftex-def, texlive-SIunits,
+%    texlive-babel-dutch
+%  Debian:
+%    texlive-latex-extra
+
+\usepackage[dutch]{babel}
+\usepackage[pdftex]{graphicx}
+\usepackage{multirow}
+\usepackage[absolute]{textpos}
+
+\usepackage{hyperref}                   % Om hrefs te maken
+\usepackage{url}                        % Om url's te verwerken
+\usepackage{graphicx}                   % Om figuren te kunnen verwerken
+\usepackage{xspace}                     % Magische spaties na een commando
+\usepackage[utf8]{inputenc}             % Om niet ascii karakters rechtstreeks te kunnen typen
+\usepackage{float}                      % Om nieuwe float environments aan te maken. Ook optie H!
+\usepackage{flafter}                    % Opdat floats niet zouden voorsteken
+\usepackage{listings}                   % Voor het weergeven van letterlijke text en codelistings
+\usepackage{eurosym}                    % om het euro symbool te krijgen
+\usepackage{textcomp}                   % Voor onder andere graden celsius
+\usepackage[Gray,squaren,thinqspace,thinspace]{SIunits} % Om elegant eenheden te zetten
+
+\hyphenation{ver-ze-ke-rin-gen}
+\hyphenation{tekst-ver-wer-ker}
+\hyphenation{wij-zi-ging}
+\hyphenation{be-kij-ken}
+\hyphenation{be-re-ke-ning}
+
+\setlength{\TPHorizModule}{25mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{15mm}{15mm}
+
+% Sans-serif font, volgens huisstijl
+%
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+
+%% algemene instellingen voor listings
+
+%%
+%% Eerst een blok rommel voor de 'huisstijlheader'
+%%
+
+\begin{textblock}{2}(0,0)
+\includegraphics[height=32mm]{chiro.png} \\
+\end{textblock}
+
+\begin{textblock}{4.1}(3,0)
+\textbf
+{
+\begin{tabular}{|p{65mm}|p{10mm}|r|}
+\multicolumn{3}{r}{\Large Chirojeugd-Vlaanderen vzw} \\
+\multicolumn{3}{r}{\,} \\
+\hline
+\multicolumn{2}{|l|}{__VERGADERING__} & __DOC_ID__ \\
+\hline
+__DATUM__ & Not. & __DOC_NR__ \\
+\hline
+\end{tabular} 
+}
+\end{textblock}
+
+\vspace*{4mm}
+
+
+
