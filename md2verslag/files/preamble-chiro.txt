@@ -8,7 +8,7 @@
 % Nodige packages voor compilatie:
 %  Fedora:
 %    texlive-textpos, texlive-multirow, texlive-pdftex-def, texlive-SIunits,
-%    texlive-babel-dutch
+%    texlive-babel-dutch, texlive-parskip, texlive-ec
 %  Debian:
 %    texlive-latex-extra
 
@@ -36,6 +36,7 @@
 \hyphenation{wij-zi-ging}
 \hyphenation{be-kij-ken}
 \hyphenation{be-re-ke-ning}
+\hyphenation{zo-iets}
 
 \setlength{\TPHorizModule}{25mm}
 \setlength{\TPVertModule}{\TPHorizModule}
