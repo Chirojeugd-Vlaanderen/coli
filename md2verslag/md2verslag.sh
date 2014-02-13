@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Opgelet! Dit gaat enkel werken als pandoc geinstalleerd is,
-# en een hele nest latex-pakketten (zie files/preamble-chiro.tex)
+# Opgelet! Dit gaat enkel werken als pandoc en texlive-latex-bin
+# geinstalleerd  zijn.
+# Verder heb je nog een hele nest latex-pakketten nodig, zie
+# files/preamble-chiro.tex
 
 # standaardwaarden
 
