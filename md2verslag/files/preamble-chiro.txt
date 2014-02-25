@@ -38,6 +38,9 @@
 \hyphenation{be-re-ke-ning}
 \hyphenation{zo-iets}
 \hyphenation{ver-te-gen-woor-digd}
+\hyphenation{mis-schien}
+\hyphenation{Me-dia-ra-ven}
+\hyphenation{toe-stand}
 
 \setlength{\TPHorizModule}{25mm}
 \setlength{\TPVertModule}{\TPHorizModule}
